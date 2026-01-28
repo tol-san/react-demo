@@ -1,14 +1,11 @@
-import PostList from "./PostList";
-import Todo from "./Todo";
-import TodoForm from "./TodoForm";
+import { Button } from "./components/ui/button"
 
 function App() {
-  return (
-    <div className=" container mt-5">
-      <TodoForm />{" "}
-      <Todo/>
+ return (
+    <div className="flex min-h-svh flex-col items-center justify-center">
+      <Button>Click me</Button>
     </div>
-  );
+ )
 }
 
-export default App;
+export default App
